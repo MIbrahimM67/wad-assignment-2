@@ -4,58 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Contact us</title>
 </head>
 
 <body>
-    <div class="Header">
-        <div class="head-title">
-            <h1>Department Of Computer Science</h1>
+    <div class=" bg-gradient-to-r from-[#007470] to-[#03d349] text-white p-4 flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-2 md:mb-0 text-center md:text-left">
+          <h1 class="text-2xl font-bold">Department Of Computer Science</h1>
         </div>
-
-        <div class="Header-buttons">
-            <a href="home.html " target="_blank">Home</a>
-            <a href="Academics.html" target="_blank">Academics</a>
-            <a href="Research.html" target="_blank">Research</a>
-            <a href="Funded.html" target="_blank">Funded Projects</a>
-            <a href="Admissions.html">Admissions</a>
-            <a href="Faculty.html">Faculty</a>
-            <div class="drop-downcontent">
-                <a href="#More" class=" dropdown" style="background-color: rgb(0, 116, 112);"> More</a>
-                <div class="more">
-                    <a href="https://gdsc.community.dev/quaid-i-azam-university" target="_blank">Google GDSC</a>
-                    <a href="https://jobs.qau.edu.pk/" target="_blank">Jobs</a>
-                    <a href="http://alumni.cs.qau.edu.pk/" target="_blank">Alumni</a>
-                </div>
+        <div class="flex flex-wrap gap-4 justify-center md:justify-start items-center">
+          <a href="home.html" target="_blank" class="hover:bg-green-400 ">Home</a>
+          <a href="Academics.html" target="_blank" class="hover:bg-green-400">Academics</a>
+          <a href="Research.html" target="_blank" class="hover:bg-green-400">Research</a>
+          <a href="Funded.html" target="_blank" class="hover:bg-green-400">Funded Projects</a>
+          <a href="Admissions.html" class="hover:bg-green-400">Admissions</a>
+          <a href="Faculty.html" class="hover:bg-green-400">Faculty</a>
+          <div class="relative group">
+            <a href="#More" class="px-2 py-1 bg-[#007470] rounded">More</a>
+            <div class="absolute hidden group-hover:block bg-white text-black m-3 p-3 rounded shadow-md space-y-1">
+              <a href="https://gdsc.community.dev/quaid-i-azam-university" target="_blank" class="block hover:underline">Google GDSC</a>
+              <a href="https://jobs.qau.edu.pk/" target="_blank" class="block hover:underline">Jobs</a>
+              <a href="http://alumni.cs.qau.edu.pk/" target="_blank" class="block hover:underline">Alumni</a>
             </div>
+          </div>
         </div>
-        <div class="contact-icons">
-            <a href="https://qau.edu.pk/" target="_blank"><img src="homeicon.png" alt="icon of home" /></a>
-            <a href="contactus.html"><img src="phoneicon.png" alt="icon of phone" /></a>
+        <div class="flex gap-2 mt-2 md:mt-0">
+          <a href="https://qau.edu.pk/" target="_blank">
+            <img src="homeicon.png" alt="icon of home" class="w-7 h-6" />
+          </a>
+          <a href="contactus.html">
+            <img src="phoneicon.png" alt="icon of phone" class="w-7 h-6" />
+          </a>
         </div>
-    </div>
-
-    <div class="headline">
-        <div class="admission-head">
-            <p>Admissions for fall 2025 are open!</p>
-        </div>
-        <div class="notice-head">
-            <p>Admissions for fall 2025 are open!</p>
-        </div>
-        <div class="research-head">
-            <p>Admissions for fall 2025 are open!</p>
-        </div>
-    </div>
-
-    <div class="imp-links">
-        <a href="https://cs.qau.edu.pk/doc/timetable.pdf" target="_blank">Timetable</a>
-        <a href="https://cs.qau.edu.pk/doc/semester-schedule.pdf" target="_blank">Schedule</a>
-        <a href="https://cs.qau.edu.pk/doc/university-facilities.pdf" target="_blank">Facilities</a>
-    </div>
+      </div>
+    
+      
+      <div class="flex  flex-row justify-center items-center bg-gray-100 p-4 text-center text-lg font-semibold">
+        <div class="text-red-600 justify-center items-center ">Admissions for fall 2025 are open!</div>
+    
+      </div>
 
 
-    <div class="c-main">
+    <div class="c-main flex flex-row p-15 m-5">
         <div class="map">
             <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26540.0294553972!2d73.138121!3d33.747648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfc11d3571e5bf%3A0x841a9ed6d869644f!2sQuaid%20e%20Azam%20University%20Islamabad!5e0!3m2!1sen!2s!4v1745252696453!5m2!1sen!2s"
@@ -63,7 +55,7 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
        
-        <div class="c-text">
+        <div class="c-text m-5">
             <h2> Quaid-i-Azam University, Islamabad</h2>
             <h3>Department of Computer Sciences</h3>
             <p>Islamabad 45320, Pakistan</p>
@@ -77,40 +69,35 @@
     </div>
     <hr></hr>
 
-    <div class="semi-footer">
-        <div class="usefull-links">
-            <p
-                style="font-size: x-large;  ;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-shadow:2px 2px 2px rgb(255, 255, 255); text-transform: uppercase; ">
-                Useful Links</p>
-            <div class="links">
-                <a href="https://qau.edu.pk/">Qau</a>
-                <a href="Admissions.html">Admissions</a>
-                <a href="contactus.html">Contact</a>
-            </div>
-            <p>
-                <b>Department of Computer Sciences</b>,
-                Quaid-i-Azam University,
-                Islamabad, 45320, Pakistan
-                Tel : +92 (051) 9064-2057
-            </p>
+    <div class="bg-gray-100 py-8 px-4 grid grid-cols-1 md:grid-cols-2 gap-6 justify-center items-center">
+        <div>
+          <p class="text-xl font-bold uppercase text-shadow">Useful Links</p>
+          <div class="flex flex-col gap-2 mt-2">
+            <a href="https://qau.edu.pk/" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">Qau</a>
+            <a href="Admissions.html" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">Admissions</a>
+            <a href="contactus.html" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">Contact</a>
+          </div>
+          <p class="mt-2">
+            <b>Department of Computer Sciences</b>,<br>
+            Quaid-i-Azam University,<br>
+            Islamabad, 45320, Pakistan<br>
+            Tel : +92 (051) 9064-2057
+          </p>
         </div>
-        <div class="Programs">
-            <p
-                style="font-size: x-large;  ;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-shadow:2px 2px 2px rgb(255, 255, 255); text-transform: uppercase; ">
-                Our Programs</p>
-            <div>
-                <a href="https://cs.qau.edu.pk/undergraduate.php">BS Computer Science</a>
-                <a href="https://cs.qau.edu.pk/graduate.php">Mphil Computer Science</a>
-                <a href="phd.html">PhD Computer Science</a>
-                <a href="https://cs.qau.edu.pk/msc.php">MS Information Science & Technology</a>
-                <a href="https://cs.qau.edu.pk/ms.php">MS Data Science</a>
-            </div>
+        <div>
+          <p class="text-xl font-bold uppercase text-shadow">Our Programs</p>
+          <div class="flex flex-col gap-2 mt-2">
+            <a href="https://cs.qau.edu.pk/undergraduate.php" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">BS Computer Science</a>
+            <a href="https://cs.qau.edu.pk/graduate.php" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">Mphil Computer Science</a>
+            <a href="phd.html" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">PhD Computer Science</a>
+            <a href="https://cs.qau.edu.pk/msc.php" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">MS Information Science & Technology</a>
+            <a href="https://cs.qau.edu.pk/ms.php" class="text-red-700 no-underline font-bold uppercase p-2 bg-[#004c3f] w-fit rounded-3xl hover:bg-[#06f44a] hover:text-white hover:shadow-lg hover:scale-125 transition-all duration-300 ease-in-out">MS Data Science</a>
+          </div>
         </div>
-    </div>
-    <div class="Footer">
-        <p>&copy; 2025 © Department of Computer Sciences, QAU, Islamabad</p>
-    </div>
-
+      </div>
+      <div class="bg-[#007470] text-white text-center py-4">
+        <p>&copy; 2025 Department of Computer Sciences, QAU, Islamabad</p>
+      </div>
 </body>
 
 </html>
